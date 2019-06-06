@@ -22,7 +22,13 @@ function NameCells() {
   </>);
 }
 
+function SubmitButton() {
+  var buttonLabel = "Submit";
+  return (
+    <button>{buttonLabel}</button>
+  );
+}
 
 
 //ReactDOM.render(<HelloWorld />, document.querySelector("#root"));
-ReactDOM.render(<NameCells />, document.querySelector("#root"));
+ReactDOM.render(<SubmitButton />, document.querySelector("#root"));
