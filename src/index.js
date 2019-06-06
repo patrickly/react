@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from "react-dom";
 
 function HelloWorld() {
@@ -16,9 +16,10 @@ function World() {
 }
 
 function NameCells() {
-  return (<React.Fragment>
-    <td>First Name</td> <td>Last Name</td>
-  </React.Fragment>);
+  return (<>
+    <td>First Name</td>
+    <td>Last Name</td>
+  </>);
 }
 
 
