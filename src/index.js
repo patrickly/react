@@ -29,6 +29,36 @@ function SubmitButton() {
   );
 }
 
+function ValidIndicator() {
+  var isValid = false;
+  return (
+    <span>{isValid ? 'valid' : 'not valid'}</span>
+  );
+}
+
+function ValidIndicatorTwo() {
+  var isValid = true;
+  return (
+    <span>
+      {
+        // hi
+
+        isValid && 'valid'
+        // testing
+      }
+      {!isValid && 'not valid'
+        /*
+          world
+        */
+      }
+      {
+        // this is a comment
+      }
+    </span>
+  );
+}
+
 
 //ReactDOM.render(<HelloWorld />, document.querySelector("#root"));
-ReactDOM.render(<SubmitButton />, document.querySelector("#root"));
+ReactDOM.render(<ValidIndicatorTwo />, document.querySelector("#root"));
+
